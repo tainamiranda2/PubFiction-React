@@ -1,19 +1,32 @@
 import React from 'react';
+import Input from "../../components/input/Input";
+import Button from "../../components/button/Button";
 
 export const Login=()=>{
   return (
     <>
-    <h1>Olá, aqui é a tela de login</h1>
-      <label>Nome:</label>
-      <input />
-     <label>Senha:</label>
+    
+<Input
+ type="text" 
+name="name"
+text="Nome completo"
+  placeholder="Digite seu nome"
+/>
+<Input
+ type="email" 
+name="name"
+text="email"
+  placeholder="Digite seu email"
+/>
 
-      <input />
-      <label>Email:</label>
+<Input
+ type="password" 
+name="name"
+text="senha"
+  placeholder="Digite sua senha"
+/>
 
-      <input />
-<span>Opcional</span>
+<Button text="Enviar" to="/"/>
     </>
   )
 }
-//export default Login;

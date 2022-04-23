@@ -1,19 +1,24 @@
-import react from 'React';
+import React from 'react';
 import * as C from './styles';
 
-function Input({type,text, name, placeholder,handleOnChange,
+function Input({type,
+  text,
+   name, 
+   placeholder,
+   handleOnChange,
                 value}) {
 
 return(
-  <>
+
   <C.Container>
-<label htmlFor={name}>
+
+  <label htmlFor={name}>
   {text}:
 </label>
-
     <br/>
 
-    <input type={type} 
+    <input
+     type={type} 
       name={name}
       id={name}
       placeholder={placeholder}
@@ -22,7 +27,8 @@ return(
       />
     
   </C.Container>
-  </>
+  
 )
   
 }
+export default Input;
