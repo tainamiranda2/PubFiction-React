@@ -10,7 +10,7 @@ export const Nav =()=>{
     <a href="/">Home</a>
     </li>
     <li>
-    <a href="/">Login</a>
+    <a href="/step1">Login</a>
     </li>
       <li>
     <a href="step2">Cadastro</a>
