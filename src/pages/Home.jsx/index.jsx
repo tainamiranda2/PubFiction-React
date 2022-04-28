@@ -1,12 +1,14 @@
 import React from  'react';
 import Photo from './img1.png';
+import * as C from './style';
+
 export const Home=()=>{
     return (
-        <>
-        <h1>Olá, bem ao site.</h1>
-        <p>Leve sua festa a outro patamar com pub fiction.</p>
+        <C.Container>
+       
+        <h1>Leve sua festa a outro patamar com pub fiction.</h1>
         <p>Aposte em eventos personalizados e tenha tempo para seus convidados.</p>
         <img src={Photo}/>
-        </>
+        </C.Container>
     )
 }
