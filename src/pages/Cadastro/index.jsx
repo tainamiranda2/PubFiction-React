@@ -3,7 +3,7 @@ import Input from "../../components/input/Input";
 import Button from "../../components/button/Button";
 
 export const Cadastro=()=>{
-  
+
   function handleChange(){
 
   }
@@ -32,6 +32,8 @@ text="Email"
 name="name"
 text="Senha"
   placeholder="Digite sua senha"
+  handleOnChange={handleChange}
+
   value={create}
 />
 
