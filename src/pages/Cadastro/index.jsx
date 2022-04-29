@@ -51,4 +51,3 @@ text="Senha novamente"
     </>
   )
 }
-//
