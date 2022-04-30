@@ -1,6 +1,6 @@
 import React from 'react';
-import Input from "../../components/input/Input";
-import Button from "../../components/button/Button";
+import Input from '../../components/input/Input';
+import Button from '../../components/button/Button';
 
 export const Cadastro=()=>{
 
