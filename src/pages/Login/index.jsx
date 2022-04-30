@@ -1,6 +1,6 @@
 import React from 'react';
 import Input from "../../components/input/Input";
-import Button from "../../components/button/Button";
+import Button from '../../components/button/Button';
 
 
 export const Login=()=>{
@@ -9,13 +9,14 @@ export const Login=()=>{
   }
   return (
     <>
-    
+    <h1>Aqui é a págin de login</h1>
 <Input
  type="text" 
 name="name"
 text="Nome completo"
   placeholder="Digite seu nome"
   handleOnChange={handleChange}
+  
   
 />
 <Input

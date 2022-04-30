@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from "../../components/card/Card";
-import { useState } from 'react';
+//import { useState } from 'react';
 export const Painel=()=>{
   //ao clicar mostrar um form
  // const [exibirForm, setExibirForm]=useState;
@@ -9,14 +9,14 @@ export const Painel=()=>{
     <>
     <h1>Olá, aqui é a area de teste ou painel</h1>
 
-<Card  text="Bife"/>
-<Card text="Endereço"/>
-<Card text="Música"/>
-<Card text="Horário"/>
-<Card text="Horário"/>
-<Card text="Convidados"/>
-<Card text="Lógistica"/>
-<Card text="Tema"/>
+<Card  to="/step1" text="Bife"/>
+<Card  to="/" text="Endereço"/>
+<Card to="/" text="Música"/>
+<Card  to="/" text="Horário"/>
+<Card  to="/" text="Horário"/>
+<Card  to="/" text="Convidados"/>
+<Card  to="/" text="Lógistica"/>
+<Card to="/" text="Tema"/>
 
     </>
   )

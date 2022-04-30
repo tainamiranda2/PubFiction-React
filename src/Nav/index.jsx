@@ -1,5 +1,6 @@
 import React from 'react';
 import * as C from './style';
+import {Link} from 'react-router-dom';
 
 export const Nav =()=>{
   return (
@@ -7,16 +8,16 @@ export const Nav =()=>{
     <C.Container>
     <ul>
     <li>
-    <a href="/">Home</a>
+    <Link to="/">Home</Link>
     </li>
     <li>
-    <a href="/step1">Login</a>
+    <Link to="/step1">Login</Link>
     </li>
       <li>
-    <a href="step2">Cadastro</a>
+    <Link to="/step2">Cadastro</Link>
     </li>
       <li>
-    <a href="step3">Testar</a>
+    <Link to="/step3">Testar</Link>
     </li>
     </ul>
     </C.Container>
