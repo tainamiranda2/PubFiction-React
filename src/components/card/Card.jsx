@@ -1,6 +1,6 @@
 import React from 'react';
 import * as C from './styles';
-import {useState} from 'react'
+//import {useState} from 'react'
 
 function Card ({text}){
 //const [show,setShow]=useState;

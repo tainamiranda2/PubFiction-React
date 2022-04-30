@@ -16,7 +16,7 @@ name="name"
 text="Nome completo"
   placeholder="Digite seu nome"
   handleOnChange={handleChange}
-  value={create}
+  
 />
 <Input
  type="email" 
@@ -24,7 +24,7 @@ name="name"
 text="Email"
   placeholder="Digite seu email"
   handleOnChange={handleChange}
-  value={create}
+  
 />
 
 <Input
@@ -34,7 +34,7 @@ text="Senha"
   placeholder="Digite sua senha"
   handleOnChange={handleChange}
 
-  value={create}
+ 
 />
 
 <Input
@@ -43,7 +43,7 @@ name="name"
 text="Senha novamente"
   placeholder="Confirme sua senha"
   handleOnChange={handleChange}
-  value={create}
+
 />
 
 <Button text="Enviar" to="/"/>

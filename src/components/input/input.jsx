@@ -5,8 +5,7 @@ function Input({type,
   text,
    name, 
    placeholder,
-   handleOnChange,
-                value}) {
+   handleOnChange}) {
 
 return(
 
@@ -23,7 +22,7 @@ return(
       id={name}
       placeholder={placeholder}
       onChange={handleOnChange}
-      value={value}
+     
       />
     
   </C.Container>
