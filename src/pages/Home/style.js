@@ -23,10 +23,10 @@ margin-top:0px;
 
 }
 @media (max-width: 600px) {
-   {
+   
 flex-direction: column;
 
-  }
+  
   img{
     margin:50px;
   }
