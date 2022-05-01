@@ -3,10 +3,10 @@ import React from 'react';
 import {BrowserRouter,Routes, Route} from 'react-router-dom';
 import {Nav} from "./Nav";
 
-import {Home}  from './pages/Home';
-import {Login} from './pages/Login';
-import {Cadastro} from './pages/Cadastro';
-import {Painel} from './pages/Painel';
+import {Home}  from './pages/Home/home';
+import {Login} from './pages/Login/login';
+import {Cadastro} from './pages/Cadastro/cadastro';
+import {Painel} from './pages/Painel/painel';
 
 import {Convidados} from './Config/convidados'
 export const Router=()=>{

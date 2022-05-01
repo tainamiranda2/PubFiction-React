@@ -1,14 +1,14 @@
 import React from 'react';
 import  * as C from  './styles';
-import {Link} from 'react-router-dom';
+//import {Link} from 'react-router-dom';
 
-function Button({to, text}) {
+function Button({ text,handleOnChangeButton}) {
     return (
     <C.Container>
-      <Link to={to}>
+      <button   onClick={handleOnChangeButton}>
         
       {text}
-      </Link>
+      </button>
       </C.Container>
     )
   }
