@@ -14,7 +14,7 @@ export const Painel=()=>{
 <Card to="/" text="Música"/>
 <Card  to="/" text="Horário"/>
 <Card  to="/" text="Horário"/>
-<Card  to="/" text="Convidados"/>
+<Card  to="/step4" text="Convidados"/>
 <Card  to="/" text="Lógistica"/>
 <Card to="/" text="Tema"/>
 
