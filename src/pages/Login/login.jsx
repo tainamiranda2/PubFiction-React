@@ -1,14 +1,14 @@
 import React from 'react';
 import Button from '../../components/button/Button';
 
-import Input from '../../components/Input/Input';
+//import Input from '../../components/Input/Input';
 
 
 export const Login=()=>{
-  function handleChange(){
+ // function handleChange(){
     //alert("Respondido com sucesso");
     //seria para pegar dados
-  }
+  //}
   function button(){
    alert("Login efutuado com sucesso");
 
@@ -26,7 +26,8 @@ function enviardados() {
     <>
     <h1>Faça login</h1>
     <span>Esqueceu a senha?</span>
-    <form onSubmit={enviardados} name="dados">
+    <form onSubmit={enviardados} name="dados"> 
+    {/*
 <Input
  type="text" 
 name="name"
@@ -53,6 +54,7 @@ text="senha"
   handleOnChange={handleChange}
   
 />
+*/}
 </form>
 <Button handleOnChangeButton={button} text="Enviar"/>
 

@@ -1,16 +1,16 @@
 import React from 'react';
-import Input from '../../components/Input/Input';
+//import Input from '../../components/Input/Input';
 import Button from '../../components/button/Button'
 export const Convidados= ()=>{
-  function handleChange(){
+ // function handleChange(){
 
-  }
+  //}
     return (
      
         <>
         <h1>Cadastre os convidados</h1>
         <p>Tenha controle sobre eles</p>
-      <Input 
+  {/**    <Input 
       type="text"
       name="name"
       text="Nome do convidado"
@@ -32,6 +32,7 @@ handleOnChange={handleChange}
       placeholder="Número/whatszap do convidado?"
       handleOnChange={handleChange}
       />
+      */}
       <Button text="Enviar" to="/"/>
 
         </>

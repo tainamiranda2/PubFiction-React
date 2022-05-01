@@ -1,16 +1,16 @@
 import React from 'react';
-import Input from '../../components/Input/Input';
+//import Input from '../../components/Input/Input';
 import Button from '../../components/button/Button';
 
 export const Cadastro=()=>{
 
-  function handleChange(){
+ // function handleChange(){
 
-  }
+  //}
   return (
     <>
     <h1>Olá, aqui é a tela de cadastro</h1>
-    <Input
+  {/*   <Input
  type="text" 
 name="name"
 text="Nome completo"
@@ -45,7 +45,7 @@ text="Senha novamente"
   handleOnChange={handleChange}
 
 />
-
+*/}
 <Button text="Enviar" to="/"/>
 
     </>
