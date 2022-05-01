@@ -21,7 +21,7 @@ text="Nome completo"
 />
 <Input
  type="email" 
-name="name"
+name="email"
 text="email"
   placeholder="Digite seu email"
   handleOnChange={handleChange}
@@ -30,7 +30,7 @@ text="email"
 
 <Input
  type="password" 
-name="name"
+name="senha"
 text="senha"
   placeholder="Digite sua senha"
   handleOnChange={handleChange}
