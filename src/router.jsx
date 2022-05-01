@@ -3,7 +3,7 @@ import React from 'react';
 import {BrowserRouter,Routes, Route} from 'react-router-dom';
 import {Nav} from "./Nav"
 
-import {Home}  from './pages/Home.jsx'
+import {Home}  from './pages/Home';
 import {Login} from './pages/Login';
 import {Cadastro} from './pages/Cadastro';
 import {Painel} from './pages/Painel';
