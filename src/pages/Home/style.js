@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export  const Container = styled.div`
 *{
     justify-content:center;
+    margin:5px;
 }
 h1{
     color:#4895ff;
@@ -14,21 +15,16 @@ p{
     font-weight:bold;
     text-align:center;
 
-
 }
 img{
-    display: inline-block;
-margin-left:300px;
-margin-top:0px;
+display: block;
+
+margin:auto;
+
 
 }
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
    
-flex-direction: column;
 
-  
-  img{
-    margin:50px;
-  }
-}
+}*/
 `;

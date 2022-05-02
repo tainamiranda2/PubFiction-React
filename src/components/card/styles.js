@@ -11,22 +11,19 @@ export  const Container = styled.div`
   margin: 20px;
   width: 200px;
   transition: all 0.3s ease-out;
-  color:#4895ff;
+  background:#4895ff;
   border-left: 3px solid #4895ff;
 }
 a{
-  color:#4895ff;
+  color:yellow;
   text-decoration:none;
   
 }
-a:hover{
-  color:#fff;
- 
-}
+
 .card:hover {
   transform: translateY(-5px);
   cursor: pointer;
-  background:#4895ff;
+  background:#fff;
   color:#fff;
   border-left: 3px solid #fff;
 
