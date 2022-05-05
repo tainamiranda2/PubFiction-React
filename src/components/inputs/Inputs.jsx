@@ -1,6 +1,7 @@
 import React from 'react';
 import * as C from './style';
-function Inputs({text,placeholder, type, name}){
+function Inputs({text,placeholder, type, name,handleOnChange,value
+   }){
     return(
         <C.Container>
                 <label  htmlFor={name}>
@@ -9,7 +10,10 @@ function Inputs({text,placeholder, type, name}){
                 <input
                  type={type}
                  name={name}
-                placeholder={placeholder}/>
+                placeholder={placeholder}
+                onChange={handleOnChange}
+              value={value}
+                />
                 
             
         </C.Container>

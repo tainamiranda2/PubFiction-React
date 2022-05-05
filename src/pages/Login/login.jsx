@@ -37,13 +37,7 @@ text="Nome"
 text="Email"
  
  />
- <Inputs 
- name="Nome" 
- placeholder="Nome completo"
- type="text"
-text="Nome"
- 
- />
+
 
 <Inputs 
  name="Senha" 
