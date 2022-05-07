@@ -2,12 +2,19 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-margin:5px;
+ *{
+    margin:auto;
+    display:block;
+    text-align:center;
+    
+margin-bottom:10px;
+ }  
+
 h1{
     color:#4895ff;
     text-align:center;
     display:block;
-
+    margin:auto;
 }
 span{
     color:#808080;
@@ -18,7 +25,5 @@ Button{
     margin:auto;
     display:block;
 }
-Inputs{
-    margin:auto;
-}
+
 `;

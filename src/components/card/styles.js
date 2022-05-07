@@ -15,16 +15,14 @@ export  const Container = styled.div`
   border-left: 3px solid #4895ff;
 }
 a{
-  color:yellow;
+  color:#fff;
   text-decoration:none;
-  
 }
 
 .card:hover {
   transform: translateY(-5px);
+  background:#000;
   cursor: pointer;
-  background:#fff;
-  color:#fff;
   border-left: 3px solid #fff;
 
 }

@@ -2,7 +2,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-margin:5px;
+*{
+    margin:auto;
+    display:block;
+    text-align:center;
+margin-bottom:10px;
+}
 h1{
     color:#4895ff;
     text-align:center;
