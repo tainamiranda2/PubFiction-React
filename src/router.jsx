@@ -8,7 +8,7 @@ import {Login} from './pages/Login/login';
 import {Cadastro} from './pages/Cadastro/cadastro';
 import {Painel} from './pages/Painel/painel';
 
-import {Convidados} from './Config/convidados'
+import { Convidados } from './Config/convidados/convidados';
 export const Router=()=>{
   return (
     <BrowserRouter>

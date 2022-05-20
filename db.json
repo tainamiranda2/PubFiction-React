@@ -1,5 +1,6 @@
 {
-    "convidados":
-        {}
-    
+  "convidados": {
+    "name": "Marcos",
+    "email": "artur@email.com"
+  }
 }
