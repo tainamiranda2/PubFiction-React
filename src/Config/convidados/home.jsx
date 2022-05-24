@@ -10,7 +10,10 @@ import {useState,useEffect} from 'react';
 export const Home=({handleSubmit, btn,projetoData})=>{
     //salvando
 const [projeto,setProjeto]=useState(projetoData || {})
-//const [projeto,setPorjeto]=useState([])
+//states para mostrar
+
+//const [tabela,setTabela]=useState([])
+
     //directionar para outra pagina
  const history=useNavigate();
  
@@ -44,6 +47,8 @@ const [projeto,setProjeto]=useState(projetoData || {})
  console.log(projeto)
  }
  
+ //função para mostrar
+ useEffect
      return (
       
          <>
@@ -73,9 +78,13 @@ const [projeto,setProjeto]=useState(projetoData || {})
        <p>Aqui é a pagina home</p>
 
  <h2>Convidados</h2>
- <Table nome="Lucas" contato="lucas@email.com" />
- <Table nome="Pedro" contato="pedro@email.com" />
- <Table nome="Carol" contato="carol@email.com" />
+<div>
+{projeto.length>0 && 
+  projeto.map((tabela)=> <Table nome={tabela.name} />
+  )
+}
+
+</div>
  
      
          </>
