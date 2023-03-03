@@ -29,7 +29,6 @@ export const Convidados= ()=>{
             <h1>Cadastre os convidados</h1>
       <p>Tenha controle sobre eles</p>
  <p>Aqui é a pagina de convidados</p>
-          <Home handleSubmit={AdicionarC} btn="Enviar"/>
 
           
           </>

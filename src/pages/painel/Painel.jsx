@@ -11,14 +11,13 @@ export const Painel=()=>{
     <C.Container>
     <h1>Olá, aqui é a area de teste ou painel</h1>
 
-<Card  to="/step1" text="Bife"/>
-<Card  to="/" text="Endereço"/>
-<Card to="/" text="Música"/>
-<Card  to="/" text="Horário"/>
-<Card  to="/" text="Horário"/>
-<Card  to="/step4" text="Convidados"/>
-<Card  to="/" text="Lógistica"/>
-<Card to="/" text="Tema"/>
+<Card  to="/bife" text="Bife"/>
+<Card  to="/endereco" text="Endereço"/>
+<Card to="/musica" text="Música"/>
+<Card  to="/horario" text="Horário"/>
+<Card  to="/convidados" text="Convidados"/>
+<Card  to="/logistica" text="Lógistica"/>
+<Card to="/tema" text="Tema"/>
 
     </C.Container>
   )

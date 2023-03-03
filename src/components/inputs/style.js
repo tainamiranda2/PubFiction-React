@@ -4,8 +4,8 @@ export const Container = styled.div`
 *{
   
 
-   
     }
+
     label{
      color:#2196f3;
      
@@ -15,6 +15,7 @@ export const Container = styled.div`
     }
    input{
     font-size:15px;
+    width: 50%;
     border: 0px;
      padding:10px;
      border-bottom:2px solid #2196f3;
