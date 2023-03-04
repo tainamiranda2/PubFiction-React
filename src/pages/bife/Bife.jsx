@@ -7,6 +7,7 @@ export const Bife=()=>{
             <h2>Organize seu bife</h2>
             <form>
             <Inputs
+          
             text="Prato principal"
             type="text"
             placeholder="Informe o prato principal"

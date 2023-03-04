@@ -1,9 +1,8 @@
 import React from 'react';
-
-//import Table from '../../components/table/Table';
+import Button from '../../components/button/Button';
+import Inputs from '../../components/inputs/Inputs';
 import {useState,useEffect} from 'react';
 import { useNavigate } from "react-router-dom";
-import { Home } from './home';
 
 export const Convidados= ()=>{
   const history=useNavigate();
@@ -30,7 +29,31 @@ export const Convidados= ()=>{
       <p>Tenha controle sobre eles</p>
  <p>Aqui é a pagina de convidados</p>
 
-          
+          <form>
+          <Inputs 
+                text="informe o nome do convidado"
+                name="nome"
+                placeholder="Informe o nome do convidado"
+                type="text"
+                //value={nome}
+                />
+                  <Inputs 
+                text="informe o email do convidado"
+                name="email"
+                placeholder="Informe o email do convidado"
+                type="email"
+                //value={nome}
+                />
+                  <Inputs 
+                text="informe o número do convidado"
+                name="celular"
+                placeholder="Informe o número do convidado"
+                type="tel"
+                //value={celular}
+                />
+                  <Button text="Enviar" to="/"/>
+
+          </form>
           </>
 
     )

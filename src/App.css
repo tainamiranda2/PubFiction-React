@@ -1,5 +1,8 @@
-/*main {
-  text-align: center;
-  vertical-align: center;
-  line-height: 100vh
-}*/
+form{
+  width:50%;
+ 
+  display: block;
+margin:auto;
+margin-top: 50px;
+margin-bottom: 50px;
+}

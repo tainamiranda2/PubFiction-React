@@ -14,10 +14,14 @@ export const Container = styled.div`
     font-size:15px;
     }
    input{
-    font-size:15px;
-    width: 50%;
-    border: 0px;
-     padding:10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+   
+
+    border-left:none ;
+    border-right:none ;
+    border-top:none ;
      border-bottom:2px solid #2196f3;
    }
    
